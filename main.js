@@ -15,6 +15,10 @@ document.addEventListener('DOMContentLoaded', function(e) {
           
         sum += getValueFromField(document.getElementById('player1_ones'));
         sum += getValueFromField(document.getElementById('player1_twos'));
+        sum += getValueFromField(document.getElementById('player1_threes'));
+        sum += getValueFromField(document.getElementById('player1_fours'));
+        sum += getValueFromField(document.getElementById('player1_fives'));
+        sum += getValueFromField(document.getElementById('player1_sixes'));
 
         // let player1_twos = document.getElementById('player1_twos');
         // if (!isNaN(sum) && !isNaN(player1_twos.value)){
